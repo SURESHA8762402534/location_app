@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home screen matches snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "padding": "5%",
+      "position": "relative",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#333",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 10,
+      }
+    }
+  >
+    Location Manager
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#999",
+        "fontSize": 16,
+        "marginBottom": 8,
+      }
+    }
+  >
+    Current Location
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginBottom": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "orange",
+          "borderRadius": 25,
+          "height": 50,
+          "justifyContent": "center",
+          "marginRight": 10,
+          "width": 50,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        NA
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#333",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 5,
+            "textTransform": "capitalize",
+          }
+        }
+      >
+        
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#999",
+            "fontSize": 16,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#999",
+        "fontSize": 16,
+        "marginBottom": 8,
+      }
+    }
+  >
+    Previous Locations
+  </Text>
+  <RCTScrollView
+    data={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "blue",
+        "borderRadius": 8,
+        "bottom": "2%",
+        "opacity": 1,
+        "paddingHorizontal": 20,
+        "paddingVertical": 15,
+        "position": "absolute",
+        "right": "5%",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#777",
+            "fontSize": 16,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#fff",
+            "fontWeight": "bold",
+          },
+        ]
+      }
+    >
+      Clear all
+    </Text>
+  </View>
+</View>
+`;
