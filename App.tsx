@@ -1,9 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, SafeAreaView } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, SafeAreaView } from "react-native";
 
-import { AppProvider } from './src/contexts/AppContext';
-import Navigation from './src/navigation/Navigation';
-import StatusBarOffset from './src/components/StatusBarOffset';
+import { AppProvider } from "./src/contexts/AppContext";
+import Navigation from "./src/navigation/Navigation";
+import StatusBarOffset from "./src/components/StatusBarOffset";
 
 export default function App() {
   return (
@@ -20,6 +20,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff'
+    backgroundColor: "#fff",
   },
 });

@@ -8,23 +8,22 @@ export const initState: State = {
     time: "",
     coords: {
       latitude: 0,
-      longitude: 0
-    }
+      longitude: 0,
+    },
   },
-  history: []
-}
+  history: [],
+};
 
 export const reducer = (state = initState, action: Action): State => {
-
-  switch(action.type){
+  switch (action.type) {
     case SET_CURRENT_LOCATION:
       return action.payload;
     case SET_LOCATION_HISTORY:
       return {
         ...state,
-        history: action.payload
-      }
+        history: action.payload,
+      };
     default:
       return state;
   }
-}
+};
